@@ -34,9 +34,13 @@ Then: User details are authenticated to confirm if user is an admin
 ### Technologies Used
 
 Vscode was the source code editor of choice.
+
 Git and Github were used as my local and online repositories respectively.
+
 Django was used as the framework of choice
+
 Heroku was used in deploying the live site
+
 Postman was used in testing the API
 
 ### License
