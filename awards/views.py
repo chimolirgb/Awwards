@@ -217,3 +217,7 @@ class countriesList(APIView):
         all_countries = countries.objects.all()
         serializers = countriesSerializer(all_countries, many=True)
         return Response(serializers.data)
+
+def logout(request):
+    logout(request)
+    return redirect('login')

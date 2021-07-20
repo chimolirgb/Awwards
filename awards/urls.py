@@ -19,6 +19,8 @@ urlpatterns=[
     url(r'^api/countries/$', views.countriesList.as_view()),
     url(r'^api/technologies/$', views.technologiesList.as_view()),
     url(r'^api/colors/$', views.colorsList.as_view()),
+   
+   
 
 ]
 
